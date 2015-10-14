@@ -235,7 +235,7 @@ class NTPPacket:
         self.orig_timestamp_high = high
         self.orig_timestamp_low = low
         
-
+"""
 class RecvThread(threading.Thread):
     def __init__(self,socket):
         threading.Thread.__init__(self)
@@ -312,4 +312,5 @@ while True:
         #socket.close()
         print "Exited"
         break
-        
+ 
+""" 
