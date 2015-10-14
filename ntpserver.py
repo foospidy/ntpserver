@@ -1,14 +1,14 @@
 import datetime
-import socket
+#import socket
 import struct
 import time
-import Queue
+#import Queue
 import mutex
-import threading
+#import threading
 import select
 
-taskQueue = Queue.Queue()
-stopFlag = False
+#taskQueue = Queue.Queue()
+#stopFlag = False
 
 def system_to_ntp_time(timestamp):
     """Convert a system time to a NTP time.
